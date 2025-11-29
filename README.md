@@ -1,80 +1,65 @@
- 🚀 QA Automation & Manual Testing Portfolio
+# 🚀 QA Software Testing Portfolio
 
-Welcome to my portfolio! This repository demonstrates my skills in **Manual Testing**, **Test Planning**, and **API Testing** using a custom Node.js server.
+Welcome to my portfolio! This repository demonstrates my practical skills in **Manual Testing**, **API Testing**, and **Backend Logic**.
+
+I am a passionate Software Tester currently mastering Manual Testing concepts and learning **Java** to transition into full-stack QA.
 
 ---
 
-📂 Project Structure
+## 📂 Project Overview
 
-| Folder Name | Description | Tools Used |
+| Folder Name | Project Type | Tools Used |
 | :--- | :--- | :--- |
-| `01_Manual_SauceDemo`   | E-commerce functional testing (Login, Cart, Checkout). | Excel, Chrome DevTools |
-| `02_Manual_OrangeHRM` | HR Management System testing (Admin, PIM). | Excel, Word (Bug Report) |
-| `03_API_NodeJS_Server`    | Custom REST API Server built for testing. | Node.js, Express, Postman |
-
----
- 🛠️ Project 1: Manual Testing (SauceDemo)
-Application: [Swag Labs](https://www.saucedemo.com/)
-Objective: Verify the end-to-end flow of an e-commerce transaction.
-
- ✅ Key Deliverables:
-- Test Plan: Defined scope, strategy, and tools.
-- Test Scenarios: Covered Positive (Happy Path) and Negative testing.
-- Test Execution: Validated Login, Product Sorting, Cart updates, and Checkout.
-- Defect Reporting: Logged UI and functional discrepancies.
+| `01_Manual_SauceDemo` | E-commerce Web Testing | Excel, Test Plans |
+| `02_Manual_OrangeHRM` | HR Management System Testing | Excel, Bug Reports |
+| `03_API_NodeJS_Server` | Backend API Testing (White Box) | Node.js, Postman |
+| `04_API_RestfulBooker` | Advanced API Testing (Black Box) | Postman (Chaining) |
 
 ---
 
- 🛠️ Project 2: Manual Testing (OrangeHRM)
-Application: [OrangeHRM Demo](https://opensource-demo.orangehrmlive.com/)
-Objective: Validate Admin and Employee management modules.
+## 🛠️ Project 1: Manual Testing (SauceDemo)
+**Domain:** E-commerce
+- **Objective:** To verify the functional stability of the shopping cart flow.
+- **Key Contributions:**
+  - Designed **30+ Test Cases** covering Login, Inventory, Cart, and Checkout.
+  - Executed tests manually and maintained a Pass/Fail status report.
+  - Performed **Sanity Testing** on core features.
 
- ✅ Key Deliverables:
-- Test Cases: Detailed steps with Expected vs Actual results.
-- Bug Reports: Professional bug reports with Screenshot, Severity, and Priority.
-- Modules Tested:
-  - Login & Logout
-  - Admin > User Management
-  - PIM > Add Employee
+## 🛠️ Project 2: Manual Testing (OrangeHRM)
+**Domain:** HR Management
+- **Objective:** To validate Admin and Employee management modules.
+- **Key Contributions:**
+  - Wrote detailed Test Scenarios for **Admin** and **PIM** tabs.
+  - Identified defects and created professional **Bug Reports** including Severity and Priority.
+  - Verified User Management and Employee Creation flows.
+
+## 💻 Project 3: API Logic (Custom Node.js Server)
+**Description:**
+I created a basic REST API server using **Node.js** to understand how backend data is served.
+- **Learning Outcome:** Understood Status Codes (200 vs 404 vs 500) and JSON structure.
+- **Testing:** Verified endpoints using Postman.
+
+## 🔗 Project 4: API Testing (Restful Booker)
+**Description:**
+Performed End-to-End API Testing on a booking application.
+- **Tools:** Postman
+- **Key Highlights:**
+  - **Token Management:** Handled Dynamic Tokens for secure authentication.
+  - **Request Chaining:** Extracted data (IDs) from responses to use in subsequent requests.
+  - **CRUD Testing:** Validated Create, Read, Update, and Delete operations sequences.
+  - **Validation:** Added checkpoints to verify Response Code and Body.
 
 ---
 
- 💻 Project 3: API Testing (Node.js Custom Server)
-Description:
-I developed a dummy REST API using Node.js and Express to simulate backend responses. This demonstrates my ability to understand code and test APIs.
+## 🔧 Skills & Tools
+- **Testing Methodologies:** SDLC, STLC, Bug Life Cycle.
+- **Manual Testing:** Test Case Design, Defect Reporting (Jira/Excel).
+- **API Testing:** Postman (Collections, Environment Variables).
+- **Technical Skills:** Basic Git/GitHub, JSON, Node.js (Basic).
+- **Currently Learning:** Core Java & Programming Logic.
 
-⚙️ How to Run This Project:
-1. Navigate to the folder: `03_API_NodeJS_Server`
-2. Open terminal/command prompt.
-3. Install dependencies:
-   ```bash
-   npm install
-Start the server:Start the server: node server.js
-Server will start at: http://localhost:3000/users
+---
 
-🧪 Testing with Postman:
-Collection: A Postman Collection .json file is included in the folder.
-
-Tests Performed:
-
-GET Request: Verify Status 200 OK & JSON Body.
-
-Data Validation: Checked if user data matches the source data.json.
-
-Response Time: Verified performance under 200ms.
-
-🔧 Tools & Skills
-Manual Testing: Test Plans, Test Cases (Excel), Bug Life Cycle.
-
-API Testing: Postman, Status Codes, JSON validation.
-
-Technical: Basic Node.js, Git, GitHub.
-
-Documentation: MS Office, Markdown.
-
-👤 Author
-[Aditya Dhotkar] QA Enthusiast | Manual & API Tester
-
-
-
-
+### 👤 Author
+**Aditya Dhotkar**
+QA Enthusiast | Manual & API Tester
